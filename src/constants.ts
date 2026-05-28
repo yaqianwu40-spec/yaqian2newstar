@@ -9,7 +9,7 @@ import photo from '../photo.png';
 export const PERSONAL_INFO = {
   name: "吴亚倩",
   avatar: photo,
-  title: "产品经理",
+  title: "AI产品经理",
   subtitle: "专注 AI 产品化、教育科技、数据产品与商业化落地",
   email: "AnnaWu528@163.com",
   education: {
@@ -70,7 +70,7 @@ export const TIMELINE: TimelineItem[] = [
   },
   {
     company: "竞业达集团 (教育行业上市名企)",
-    role: "产品经理",
+    role: "AI产品经理",
     period: "2023.04 - 2025.03",
     description: "主导产业需求与就业大数据平台，获国家发明专利。"
   },
@@ -88,7 +88,7 @@ export const PROJECTS: Project[] = [
     title: "产业需求大数据平台",
     tagline: "0-1 搭建 + 数据 SaaS + AIGC 生成报告",
     period: "2023.04 - 2025.03",
-    role: "产品经理",
+    role: "AI产品经理",
     category: "AI/Big Data",
     image: f3,
     background: "学校相关部门缺乏产业人才需求动态数据支撑招生计划制定、人才培养方案优化。",
@@ -113,7 +113,7 @@ export const PROJECTS: Project[] = [
     title: "学生就业大数据平台",
     tagline: "BERT 专利 + B/C 联动 + 岗位精准匹配",
     period: "2023.12 - 2024.12",
-    role: "产品经理",
+    role: "AI产品经理",
     category: "AI/NLP",
     image: f8,
     background: "高校毕业生面临岗位匹配度低、职业规划缺乏数据支撑等痛点。",
