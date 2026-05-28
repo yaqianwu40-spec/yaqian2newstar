@@ -712,11 +712,11 @@ function ResumeView() {
                     </div>
                     <p className="text-gray-400 text-sm leading-relaxed">{exp.description}</p>
                     {/* Add snippets of projects related to that role */}
-                    {/* <div className="flex gap-2">
+                    <div className="flex gap-2">
                        {PROJECTS.filter(p => p.period.includes(exp.period.slice(0, 4))).map(pj => (
                          <span key={pj.id} className="text-[10px] glass px-2 py-1 rounded text-gray-400">#{pj.title}</span>
                        ))}
-                    </div>*/}
+                    </div>
                   </div>
                </div>
              ))}
