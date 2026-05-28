@@ -4,10 +4,11 @@ import f3 from '../f3.png';
 import f8 from '../f8.png';
 import f9 from '../f9.png';
 import f10 from '../f10.png';
+import photo from '../photo.png';
 
 export const PERSONAL_INFO = {
   name: "吴亚倩",
-  avatar: "/photo.png",
+  avatar: photo,
   title: "产品经理",
   subtitle: "专注 AI 产品化、教育科技、数据产品与商业化落地",
   email: "AnnaWu528@163.com",
@@ -114,7 +115,7 @@ export const PROJECTS: Project[] = [
     period: "2023.12 - 2024.12",
     role: "产品经理",
     category: "AI/NLP",
-    image: "/f8.png",
+    image: f8,
     background: "高校毕业生面临岗位匹配度低、职业规划缺乏数据支撑等痛点。",
     painPoints: [
       "推荐精准度不足",
@@ -139,7 +140,7 @@ export const PROJECTS: Project[] = [
     period: "2025.03 - 2026.03",
     role: "教育项目合伙人",
     category: "Education Tech",
-    image: "/f10.png",
+    image: f10,
     background: "高职院校在申报申报过程中，材料组织难度大，缺乏专业数据分析支持。",
     painPoints: [
       "申报材料非标准化",
@@ -164,7 +165,7 @@ export const PROJECTS: Project[] = [
     period: "2022.03 - 2023.03",
     role: "产品助理",
     category: "E-commerce",
-    image: "/f9.png",
+    image: f9,
     background: "通信靓号业务高度依赖线下销售，获客成本高 (单客 > 150 元)。",
     painPoints: [
       "线上渠道缺失",
