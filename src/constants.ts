@@ -1,4 +1,9 @@
 import { Project, Achievement, Capability, TimelineItem } from './types';
+// 先在文件顶部导入图片
+import f3 from '../f3.png';
+import f8 from '../f8.png';
+import f9 from '../f9.png';
+import f10 from '../f10.png';
 
 export const PERSONAL_INFO = {
   name: "吴亚倩",
@@ -84,7 +89,7 @@ export const PROJECTS: Project[] = [
     period: "2023.04 - 2025.03",
     role: "产品经理",
     category: "AI/Big Data",
-    image: "/f3.png",
+    image: f3,
     background: "学校相关部门缺乏产业人才需求动态数据支撑招生计划制定、人才培养方案优化。",
     painPoints: [
       "用户调研数据无法满足快速变化的市场需求",
