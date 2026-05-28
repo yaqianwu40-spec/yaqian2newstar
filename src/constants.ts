@@ -84,7 +84,7 @@ export const PROJECTS: Project[] = [
     period: "2023.04 - 2025.03",
     role: "产品经理",
     category: "AI/Big Data",
-    image: "./f3.png",
+    image: "/f3.png",
     background: "学校相关部门缺乏产业人才需求动态数据支撑招生计划制定、人才培养方案优化。",
     painPoints: [
       "用户调研数据无法满足快速变化的市场需求",
