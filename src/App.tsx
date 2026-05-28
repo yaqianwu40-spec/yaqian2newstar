@@ -679,7 +679,7 @@ function ResumeView() {
               <div className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2 text-sm text-gray-400">
                 <span className="flex items-center gap-2"><User size={14}/> 4年产品经验 ｜ ENTJ</span>
                 <span className="flex items-center gap-2"><Mail size={14}/> {PERSONAL_INFO.email}</span>
-                <span className="flex items-center gap-2"><Code2 size={14}/> 软件工程背景 ｜ 27岁</span>
+                <span className="flex items-center gap-2"><Code2 size={14}/> 软件工程专业 ｜ 27岁</span>
               </div>
            </div>
            <div className="w-24 h-24 rounded-2xl overflow-hidden glass p-1 shrink-0 bg-white/5">
@@ -712,11 +712,11 @@ function ResumeView() {
                     </div>
                     <p className="text-gray-400 text-sm leading-relaxed">{exp.description}</p>
                     {/* Add snippets of projects related to that role */}
-                    <div className="flex gap-2">
+                    {/* <div className="flex gap-2">
                        {PROJECTS.filter(p => p.period.includes(exp.period.slice(0, 4))).map(pj => (
                          <span key={pj.id} className="text-[10px] glass px-2 py-1 rounded text-gray-400">#{pj.title}</span>
                        ))}
-                    </div>
+                    </div>*/}
                   </div>
                </div>
              ))}
